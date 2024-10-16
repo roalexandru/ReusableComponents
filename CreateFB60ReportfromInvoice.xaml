@@ -35,7 +35,6 @@
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>System.Drawing</x:String>
-      <x:String>System.Linq</x:String>
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>System.Security</x:String>
       <x:String>UiPath.Core</x:String>
@@ -47,7 +46,6 @@
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>UiPath.UIAutomationNext.Models</x:String>
-      <x:String>System.Linq.Expressions</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
       <x:String>UiPath.Platform.SyncObjects</x:String>
     </sco:Collection>
@@ -110,7 +108,7 @@
       <AssemblyReference>System.Memory.Data</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="608,583" sap2010:WorkflowViewState.IdRef="Sequence_7">
+  <Sequence sap:VirtualizedContainerService.HintSize="1181,496" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="USSU-VSF05" Name="vendorId" />
     </Sequence.Variables>
@@ -119,9 +117,9 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <If Condition="[InvoiceDate &gt; DateTime.Now.AddMonths(-3)]" sap:VirtualizedContainerService.HintSize="546,390" sap2010:WorkflowViewState.IdRef="If_3">
+    <If Condition="[InvoiceDate &gt; DateTime.Now.AddMonths(-3)]" sap:VirtualizedContainerService.HintSize="518,368" sap2010:WorkflowViewState.IdRef="If_3">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,22" sap2010:WorkflowViewState.IdRef="Sequence_9">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_9">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -284,7 +282,7 @@
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="512,198" sap2010:WorkflowViewState.IdRef="Sequence_10">
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,173" sap2010:WorkflowViewState.IdRef="Sequence_10">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -294,7 +292,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <Assign sap:VirtualizedContainerService.HintSize="546,105" sap2010:WorkflowViewState.IdRef="Assign_3">
+    <Assign sap:VirtualizedContainerService.HintSize="518,105" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[ReportID]</OutArgument>
       </Assign.To>

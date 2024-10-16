@@ -25,12 +25,10 @@
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
-      <x:String>System.Linq</x:String>
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>UiPath.Testing</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
-      <x:String>UiPath.Core</x:String>
       <x:String>System.Runtime.Serialization</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
@@ -75,7 +73,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="FB60_Report" sap:VirtualizedContainerService.HintSize="574,1287" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="FB60_Report" sap:VirtualizedContainerService.HintSize="1181,958" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="ReportID_tmp" />
     </Sequence.Variables>
@@ -84,7 +82,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="512,284" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="484,256" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -92,13 +90,13 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[$&quot;Report ID: {ReportID_tmp}, Invoice Number: {InvoiceNumber}, Total Amount: {TotalAmount}, Invoice Date: {InvoiceDate}, Invoice Items: {String.Join(&quot;, &quot;, InvoiceItems)}, Report ID: {ReportID}&quot;]" />
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="512,590" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="484,382" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CreateFB60ReportfromInvoice.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="450,357" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="CreateFB60ReportfromInvoice.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CreateFB60ReportfromInvoice.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="CreateFB60ReportfromInvoice.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:Double" x:Key="TotalAmount" />
           <InArgument x:TypeArguments="s:DateTime" x:Key="InvoiceDate" />
@@ -109,7 +107,7 @@
       </ui:InvokeWorkflowFile>
       <Delay Duration="[TimeSpan.FromSeconds((New Random()).Next(10, 31))]" sap:VirtualizedContainerService.HintSize="450,113" sap2010:WorkflowViewState.IdRef="Delay_1" />
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="512,325" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="484,297" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
