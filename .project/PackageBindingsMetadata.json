@@ -66,22 +66,6 @@
         "DefaultValueSource": "Property"
       }
     ],
-    "UiPath.Core.Activities.BeginProcess": [
-      {
-        "Type": "process",
-        "Values": {
-          "name": {
-            "Value": "ProcessName",
-            "ValueSource": "Property"
-          },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
-      }
-    ],
     "UiPath.Core.Activities.BulkAddQueueItems": [
       {
         "Type": "queue",
@@ -115,28 +99,6 @@
         "Values": {
           "folderPath": {
             "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "SubBindings": [],
-        "DefaultValueSource": "Property"
-      }
-    ],
-    "UiPath.Core.Activities.EvaluateBusinessRule": [
-      {
-        "Type": "BusinessRule",
-        "PublishNullValues": false,
-        "Key": {
-          "Value": "N/A",
-          "ValueSource": "Property"
-        },
-        "Values": {
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          },
-          "name": {
-            "Value": "BusinessRule",
             "ValueSource": "Property"
           }
         },
@@ -248,22 +210,6 @@
         },
         "SubBindings": [],
         "DefaultValueSource": "Property"
-      }
-    ],
-    "UiPath.Core.Activities.GetTransactionItem": [
-      {
-        "Type": "queue",
-        "Values": {
-          "name": {
-            "Value": "QueueType",
-            "ValueSource": "Property"
-          },
-          "folderPath": {
-            "Value": "FolderPath",
-            "ValueSource": "Property"
-          }
-        },
-        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.InvokeProcess": [

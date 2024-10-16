@@ -1,10 +1,10 @@
 {
-  "name": "BlankLibrary5",
-  "projectId": "042d87cd-814a-43cf-b882-63a531bdf7bd",
+  "name": "DemoLib",
+  "projectId": "1b23433b-29d8-40da-9226-31132a1bc2f6",
   "description": "Blank Library",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "24.10.6",
+    "UiPath.System.Activities": "24.11.0-preview",
     "UiPath.Testing.Activities": "24.10.3"
   },
   "webServices": [],
@@ -17,7 +17,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": true,
+    "requiresUserInteraction": false,
     "supportsPersistence": false,
     "workflowSerialization": "DataContract",
     "excludedLoggedData": [
@@ -43,7 +43,7 @@
     "fileInfoCollection": [
       {
         "editingStatus": "Publishable",
-        "testCaseId": "aac66eb5-f679-439b-8b05-927a48150799",
+        "testCaseId": "cdfedf90-3001-4904-954f-d2699254fafa",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCase.xaml"
@@ -55,5 +55,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Windows"
+  "targetFramework": "Portable"
 }
