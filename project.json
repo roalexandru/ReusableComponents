@@ -4,11 +4,8 @@
   "description": "Blank Library",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "2.24.2",
-    "UiPath.Mail.Activities": "1.23.11",
     "UiPath.System.Activities": "24.10.6",
-    "UiPath.Testing.Activities": "24.10.3",
-    "UiPath.UIAutomation.Activities": "24.10.6"
+    "UiPath.Testing.Activities": "24.10.3"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -43,7 +40,15 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "aac66eb5-f679-439b-8b05-927a48150799",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      }
+    ],
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
