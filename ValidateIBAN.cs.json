@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ValidateIBAN",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "iban",
+      "DisplayName": "IBAN",
+      "Category": null,
+      "Tooltip": "Provide the code for validation",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "Output",
+      "DisplayName": "Output",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

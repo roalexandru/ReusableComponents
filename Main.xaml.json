@@ -1,0 +1,45 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "ForEachFileFolderConnections_1_Connection0",
+      "DisplayName": "ForEachFileFolderConnections_1_Connection",
+      "Category": null,
+      "Tooltip": "For Each File/Folder",
+      "Placeholder": null,
+      "Widget": "Connection",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 1,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "ForEachFileFolderConnections_1_Connection0_Property0_Metadata",
+      "DisplayName": "In location",
+      "Category": null,
+      "Tooltip": "For Each File/Folder",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 2,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "CreateFB60ReportfromInvoice_xaml__GenerateTextCompletion_1_Connection0",
+      "DisplayName": "GenerateTextCompletion_1_uipath-openai-openai",
+      "Category": null,
+      "Tooltip": "Generate Text Completion",
+      "Placeholder": null,
+      "Widget": "Connection",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 1,
+      "DataSourceItems": null
+    }
+  ]
+}
