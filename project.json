@@ -47,6 +47,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2bad4b4f-ccbe-4041-a8db-0f26ac0af84b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Validate Activity.xaml"
       }
     ],
     "saveToCloud": false
