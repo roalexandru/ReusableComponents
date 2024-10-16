@@ -11,7 +11,7 @@
       "Category": null,
       "Tooltip": "Provide the code for validation",
       "Placeholder": null,
-      "Widget": "TextComposer",
+      "Widget": null,
       "IsRequired": true,
       "IsPrincipal": true,
       "ArgumentType": 0,
@@ -25,7 +25,7 @@
       "Placeholder": null,
       "Widget": "TextComposer",
       "IsRequired": true,
-      "IsPrincipal": true,
+      "IsPrincipal": false,
       "ArgumentType": 0,
       "DataSourceItems": null
     }
