@@ -1,7 +1,12 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SAP_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SAP_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Credential" Type="InArgument(x:String)" />
   </x:Members>
+  <this:SAP_Login.Credential>
+    <InArgument x:TypeArguments="x:String">
+      <Literal x:TypeArguments="x:String" Value="" />
+    </InArgument>
+  </this:SAP_Login.Credential>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
   <sap:VirtualizedContainerService.HintSize>1709,1635</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
@@ -97,6 +102,7 @@
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:GetRobotCredential AssetName="[Credential]" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[Password]" Username="[Username]">
@@ -121,14 +127,20 @@
                 </Sequence>
               </If.Else>
             </If>
-            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Text="[Username]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Text="[Username]" Timeout="1" Version="V3">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" ContentHash="nyYfRIPD602wLworgsONsg" DesignTimeRectangle="846, 188, 124, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-user' tag='INPUT' type='text' class='lsField__input' aaname='User' /&gt;" Guid="a8d24e6a-dd69-45b5-b169-0e0d8db59670" InformativeScreenshot="274d99c059f5043b18d5102f15d4442b.png" Reference="jYQPizlCDkKSJlx7MmWX6A/y0DNhQK4uUC9z0i5GAaElg" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None" />
+                <uix:TargetAnchorable BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="4cb0763f-3cbc-42c5-8a19-02f5f530830a" DesignTimeRectangle="854, 283, 124, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user-bad' /&gt;" Guid="f330f83e-57cc-40db-bf1b-99131cde0a37" InformativeScreenshot="c4324bd91ce77a4bdcf94c7547eed37c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
             <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-password'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" SecureText="[Password]" Version="V3">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="846, 215, 124, 20" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-password' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-password' tag='INPUT' type='password' class='lsField__input' aaname='Password' /&gt;" Guid="f9fdf6ec-bc55-4bd7-b8a8-4cd0fa2bb9d4" InformativeScreenshot="c88e26a43181c452960c0b80cbcd7e98.png" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None" />
+                <uix:TargetAnchorable BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="b4cf91ef-445c-44db-b6ff-66844c3fc7c0" CvElementArea="852, 308, 128, 24" CvType="InputBox" DesignTimeRectangle="854, 310, 124, 20" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-password' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-password' tag='INPUT' type='password' class='lsField__input' aaname='Password' /&gt;" Guid="34aa82d3-189c-4149-98db-7423f6ae578f" InformativeScreenshot="481f166ed72168b748a1d4662b21ebb4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b4cf91ef-445c-44db-b6ff-66844c3fc7c0" CvTextArea="717, 313, 63, 12" CvTextArgument="Password:*" CvType="Text" DesignTimeRectangle="718, 312, 67, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-lsid='l4' /&gt;" Guid="aa3a379c-dbd4-4eeb-a864-3d0d27805052" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log On Emphasized'" sap:VirtualizedContainerService.HintSize="518,130" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V3">
