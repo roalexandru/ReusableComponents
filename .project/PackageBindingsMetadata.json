@@ -66,6 +66,22 @@
         "DefaultValueSource": "Property"
       }
     ],
+    "UiPath.Core.Activities.BeginProcess": [
+      {
+        "Type": "process",
+        "Values": {
+          "name": {
+            "Value": "ProcessName",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        },
+        "DefaultValueSource": "Default"
+      }
+    ],
     "UiPath.Core.Activities.BulkAddQueueItems": [
       {
         "Type": "queue",
@@ -232,6 +248,22 @@
         },
         "SubBindings": [],
         "DefaultValueSource": "Property"
+      }
+    ],
+    "UiPath.Core.Activities.GetTransactionItem": [
+      {
+        "Type": "queue",
+        "Values": {
+          "name": {
+            "Value": "QueueType",
+            "ValueSource": "Property"
+          },
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          }
+        },
+        "DefaultValueSource": "Default"
       }
     ],
     "UiPath.Core.Activities.InvokeProcess": [
@@ -607,12 +639,11 @@
         "DefaultValueSource": "Property"
       }
     ],
-    "UiPath.UIAutomationNext.Activities.NApplicationCard": [
+    "UiPath.Mail.Activities.Business.ExchangeApplicationCard": [
       {
-        "Type": "UIAConnection",
-        "PublishNullValues": false,
+        "Type": "Connection",
         "Key": {
-          "Value": "ConnectionId",
+          "Value": "BindingsKey",
           "ValueSource": "Property"
         },
         "Values": {
@@ -622,17 +653,102 @@
           }
         },
         "Arguments": {
-          "ConnectionName": {
-            "Value": "ConnectionName",
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
             "ValueSource": "Property"
           },
           "Connector": {
-            "Value": "z-uipath-browser",
-            "ValueSource": "Constant"
+            "Value": "Connector",
+            "ValueSource": "Property"
           }
         },
-        "SubBindings": [],
-        "DefaultValueSource": "Property"
+        "DefaultValueSource": "Default"
+      }
+    ],
+    "UiPath.Mail.Activities.Business.GmailApplicationCard": [
+      {
+        "Type": "Connection",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "UseConnectionService": {
+            "Value": "UseConnectionService",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          }
+        },
+        "DefaultValueSource": "Default"
+      }
+    ],
+    "UiPath.Mail.Activities.Business.NewGmailTrigger": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          }
+        },
+        "DefaultValueSource": "Default"
+      }
+    ],
+    "UiPath.Mail.Activities.Business.NewO365EmailTrigger": [
+      {
+        "Type": "EventTrigger",
+        "Key": {
+          "Value": "BindingsKey",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "Connector": {
+            "Value": "Connector",
+            "ValueSource": "Property"
+          },
+          "Operation": {
+            "Value": "Operation",
+            "ValueSource": "Property"
+          },
+          "ObjectName": {
+            "Value": "ObjectName",
+            "ValueSource": "Property"
+          }
+        },
+        "DefaultValueSource": "Default"
       }
     ]
   }

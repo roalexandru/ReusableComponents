@@ -1,9 +1,11 @@
 {
-  "name": "Demo.ReusableComponents.SAP",
-  "projectId": "3879cb9c-a366-4f59-9d35-2abb9824cfd7",
-  "description": "Library to reuse SAP Components",
+  "name": "BlankLibrary5",
+  "projectId": "042d87cd-814a-43cf-b882-63a531bdf7bd",
+  "description": "Blank Library",
   "main": "NewActivity.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "2.24.2",
+    "UiPath.Mail.Activities": "1.23.11",
     "UiPath.System.Activities": "24.10.6",
     "UiPath.Testing.Activities": "24.10.3",
     "UiPath.UIAutomation.Activities": "24.10.6"
@@ -11,8 +13,8 @@
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "23.4.0.0",
-  "projectVersion": "1.1.0",
+  "studioVersion": "24.10.5.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -48,5 +50,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Portable"
+  "targetFramework": "Windows"
 }

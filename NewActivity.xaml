@@ -1,0 +1,157 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="LimitDate" Type="InArgument(s:DateTime)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1123,856</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.FTP.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.FTP.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1166,969" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Packages - File Explorer" sap:VirtualizedContainerService.HintSize="450,607" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e764eb65-5d49-47d9-b88c-f4f7b940adf9" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,244" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NHighlight Color="Gold" DisplayName="Highlight 'uipath.imageprocessing.…'" HighlightTime="[(New DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day + 1) - DateTime.Now).TotalSeconds]" sap:VirtualizedContainerService.HintSize="382,182" sap2010:WorkflowViewState.IdRef="NHighlight_1" ScopeIdentifier="e764eb65-5d49-47d9-b88c-f4f7b940adf9" Version="V4">
+              <uix:NHighlight.Target>
+                <uix:TargetAnchorable ContentHash="Ns9sB-r8X0qKefOohh0Kig" DesignTimeRectangle="204, 163, 336, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='Packages' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='8' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='Packages' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='8' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='uipath.imageprocessing.23.4.0.nupkg' /&gt;" Guid="04642bae-c305-48e7-9b0c-fc418b85c34b" InformativeScreenshot="aa981a7c091f2b8bb040406be3a2087d.png" Reference="NN4j6hQiCUWUwwn_2U2mNA/jriPY3ghTUW-iD-9jZ9jPA" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Packages - File Explorer' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NHighlight.Target>
+            </uix:NHighlight>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="266, 176, 1625, 721" ContentHash="DR_wPgpxH0K-eo-LkC4CLQ" FilePath="C:\Windows\explorer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARSSURBVFhH7ZTXU1xVHMf5K5TdBYQICQl580FnMuporNEk2KKxRCyxa4yxp4CxRWOJJWpmHB80QwqwKdSFlNcovddlYRdYmjEBYYHg/Tjn3HOWu3ev40N8k9/M73Hv51vObxMSFmdx1HDmilzjbCLGmUT+EntarIv5Uy4unXLLnat0BWZ97hz7b/+TEWAJP51ozCvwvABXmTtX6WG20m3MViYxU+rKtv/+sifWsXItwFUeLlUJuMeY9SUx40siUuE5Hym/MtX+jcsa07Hpek6C3cKxdD7j85jOfclEKpKMSEUy0+XmTpWlMFWaYvxZlsJkSYoxWXIVkyWpxkRxKhMlaVwsTuPCyVTjwsk0/jghdgnnjy/JtfMThFsBnPW5jRmfWzsVQKbLPUyXJzElgclEzl6L0bsHhn6CwR9h4AAMfAfBryH4JfR/Dv2fQuAjCHwAvXnQswN63oXuN4mcy8bOT5godRljx13GiNfFiNdtDBe5jXCRh3Chm6ECN+FCjzF8LJ2p6hyMkIDtg/5PoO9j6NOg3SbMvwt6dyrg2xJK9xvQtQ26tkLnlngBkw3b4PcKGC+D8WIYOwGjXhgtgpEjMJwP4Z9h8AD0fwZ9eywOFbg3F/w7wb8dut+B7rdMeNfr0PUadL4KHa9Ax0vxAhg5bH584HsY2A8D30JIRLoPgl+YUBGrAAvXgQ8h8D70vgd+Ad4FPduhR4C1aw3eGgXT8QK0P+cgYPAHs8eQAoc0WPS5F/pU3FHwbgtY96vAXSpuAe7cAh0vQ8eLEkz7M9D2tIOA0H4IfQOhr8yHFLSCHeIWYP8O8GuwiDu2ZwluF+Dnof1ZCab1SWjNcRIgwNr1XkvcChwTt3hgOu5/7nkBvBnanoLWJ6DlcWh5zEHAv/UsH5ju2Rq3pedOARZxmz3TZsZtujbBND8CzRsdBDj2bAWrnqXr+LNy6lmCpeNNUTDND0LTAw4CJFjHbe1ZnVU0bg0Wrq1gS88y7hwFfhSaH4bmh6BpAzTeB433OAiIe2Cq5+g9C7ClZxm36FnEbe95k4pbgDcq8P3QeC80ZEPDOgcB0bitD8zhnqVrDdY9C7COe6Fnmsy4o+D6dVB/N9SvcRCgz0r2bH1g4p6V405xVgpsO6uYnqNgM24JblgLdWug7g6ovc1BQMxZ2R6YAMf0vFmBVdy65ybRswLLqNdD/VqovysKpvYWqF3tICCuZwGO/fs0warn6Fk59Nwo4tbgO6Hudqi9FWpWQ81NUH2DgwANlq5tYHlWdrCOewM0xT4ws2cLuFaDb4Tq66F6VbyAyLn1trgt99xm6blFxK16brTGrcC65zoVd83NC+DfVsGv13HRd028gLFjV+eNe9ONcW8GY94MRgvTjdGiDGO0cCliRwqWMlywjPDRZQwXZBI+msnQkUyGDi9nUO4KBg4tN0KHViA2mC82i2D+SvoPZtF3cKXcwC9is/Ls/MVZnP/v/A2tTwUCcCcWpwAAAABJRU5ErkJggg==" InformativeScreenshot="6b9f4d134d33a0ad4dad4cf2b92e8ce9.png" Reference="NN4j6hQiCUWUwwn_2U2mNA/QuQQANEzkE-Moi92IEP6Yg" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Packages - File Explorer' /&gt;" Title="Packages - File Explorer" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <If Condition="[LimitDate &gt;= DateTime.Now.AddDays(3 + (2 * If(DateTime.Now.DayOfWeek = DayOfWeek.Friday, 1, 0)))]" sap:VirtualizedContainerService.HintSize="450,339" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
