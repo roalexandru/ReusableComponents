@@ -1,0 +1,15 @@
+{
+  "Value": {
+    "CreateFB60ReportfromInvoice.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": "TODO: Max 3 months",
+        "Id": "b1cb7347-54d1-43c4-9b06-cb3372bb5281",
+        "ActivityIdRef": "If_3",
+        "ActivityId": "1.18",
+        "ActivityName": "If",
+        "IsTransient": false
+      }
+    ]
+  }
+}

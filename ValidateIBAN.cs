@@ -38,7 +38,7 @@ namespace Demo.ReusableComponents.SAP
             }
 
             // Rearrange the IBAN: move first 4 characters to the end
-            string rearrangedIban = iban.Substring(4) + iban.Substring(0, 4);
+            string rearrangedIban = iban[4..] + iban[..4];
 
             // Convert letters to numbers (A = 10, B = 11, ..., Z = 35)
             var numericIbanBuilder = new System.Text.StringBuilder(rearrangedIban.Length);

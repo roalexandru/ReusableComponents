@@ -41,7 +41,20 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cbf3cf34-7f4b-4237-afb5-2ea530debfac",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\FB60-Report.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2d6578eb-2d67-43ef-bc17-2b5306a66b25",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\LoginValidation.xaml"
+      }
+    ],
     "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
