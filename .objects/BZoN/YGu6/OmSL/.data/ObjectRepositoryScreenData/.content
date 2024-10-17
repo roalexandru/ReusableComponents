@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="Og4aD5433kOxYdb2WSBoVg" Reference="jYQPizlCDkKSJlx7MmWX6A/wWdzCG6yDEeU-so4e4rnKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="HBUwiRUZakW9A9qCgVxjZg" Reference="jYQPizlCDkKSJlx7MmWX6A/wWdzCG6yDEeU-so4e4rnKQ" Selector="&lt;html title='Logon' app='chrome.exe' /&gt;" Title="Logon" Url="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <imageRef attrName="InformativeScreenshot" originalValue="c808f04dd1bb1987113aaed7b5447ec9.png" xmlns="">0QIZAE9WsnkeygmnYdb4weQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

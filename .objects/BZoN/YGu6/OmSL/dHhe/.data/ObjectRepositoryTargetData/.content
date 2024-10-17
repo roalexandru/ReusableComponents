@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iSPCXjjbwky9h_FqeNOSxw" Reference="jYQPizlCDkKSJlx7MmWX6A/WGMga6RU40Kx5pwh9H0y2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="5f826060-b8b4-48d2-a5dd-09a128b19de6" DesignTimeRectangle="854, 283, 124, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user-bad' /&gt;" Guid="01ded8a0-b82e-4ed8-8d5d-61129db37e06" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="65dbc3d8ddf7c88940dc13590371ab80.png" xmlns="">0bezmf-a6KkeDC7N1NtkSDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

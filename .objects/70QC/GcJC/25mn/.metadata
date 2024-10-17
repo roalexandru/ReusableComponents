@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SAP Easy Access - User Menu for Franky Finance",
+  "Type": "Screen",
+  "Id": "25mnoouknEKOQOhVbgQ2Yw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/25mnoouknEKOQOhVbgQ2Yw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/GcJCR_y7h0C35-aCOCz0rw",
+  "Created": "2024-10-17T12:53:53.8618709Z",
+  "Updated": "2024-10-17T12:53:53.8618709Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

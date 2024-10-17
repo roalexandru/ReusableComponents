@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Logon screen",
+  "Type": "Screen",
+  "Id": "OmSLCsXqMEKD4g-u7RspZw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/OmSLCsXqMEKD4g-u7RspZw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/YGu6YDWwQUCVN-ZScxM-dg",
+  "Created": "2024-10-17T12:52:26.3817762Z",
+  "Updated": "2024-10-17T12:52:26.3817762Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

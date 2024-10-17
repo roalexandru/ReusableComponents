@@ -57,7 +57,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="1250,1430" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TestCase" sap:VirtualizedContainerService.HintSize="1230,1429" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="username">
         <sap:WorkflowViewStateService.ViewState>
@@ -102,13 +102,13 @@
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="552,851" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="552,850" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="SAP Easy Access - User Menu for Franky Finance" sap:VirtualizedContainerService.HintSize="518,768" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6e203ffd-2d1a-4ae7-af1a-6084a1895eb1" Version="V2">
+      <uix:NApplicationCard AttachMode="SingleWindow" DisplayName="SAP Easy Access - User Menu for Franky Finance" sap:VirtualizedContainerService.HintSize="518,767" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="6e203ffd-2d1a-4ae7-af1a-6084a1895eb1" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -120,7 +120,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'SMENSMEN'" sap:VirtualizedContainerService.HintSize="450,407" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6e203ffd-2d1a-4ae7-af1a-6084a1895eb1" Version="V3">
+              <uix:NCheckState DisplayName="Check App State 'SMENSMEN'" sap:VirtualizedContainerService.HintSize="450,407" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6e203ffd-2d1a-4ae7-af1a-6084a1895eb1" Timeout="4" Version="V3">
                 <uix:NCheckState.IfExists>
                   <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
@@ -140,7 +140,7 @@
                   </Sequence>
                 </uix:NCheckState.IfNotExists>
                 <uix:NCheckState.Target>
-                  <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui?sap-client=804&amp;sap-language=EN#" ContentHash="QfMTE2hLuUWuEby95Bv6EQ" CvElementArea="1847, 112, 20, 17" CvTextArea="1808, 114, 40, 13" CvTextArgument="SMEN" CvType="ArrowButton" DesignTimeRectangle="1804, 108, 64, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/titl' /&gt;&lt;webctrl sapweb-lsid='infoarea_text' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/titl' /&gt;&lt;webctrl sapweb-lsid='infoarea_text' tag='A' type='' class='lsControl--valign lsLinkChoice lsLinkChoice--display urLnkChoice lsLinkChoice--text lsControl--noWrapping lsLinkChoice--standard' aaname='SMENSMEN' check:innerText='SMEN' /&gt;" Guid="301c9252-752c-4476-8a88-90b38ea2c882" InformativeScreenshot="4ed8156582adbfe51f9c6d9da5b5b0b0.png" Reference="jYQPizlCDkKSJlx7MmWX6A/q2OMAnSr0E2L_-6XK1fKUQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SAP Easy Access - User Menu for Franky Finance' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui?sap-client=804&amp;sap-language=EN#" ContentHash="aPtUS3UohEO36NdeuOIjTA" CvElementArea="1847, 112, 20, 17" CvTextArea="1808, 114, 40, 13" CvTextArgument="SMEN" CvType="ArrowButton" DesignTimeRectangle="1804, 108, 64, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/titl' /&gt;&lt;webctrl sapweb-lsid='infoarea_text' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/titl' /&gt;&lt;webctrl sapweb-lsid='infoarea_text' tag='A' type='' class='lsControl--valign lsLinkChoice lsLinkChoice--display urLnkChoice lsLinkChoice--text lsControl--noWrapping lsLinkChoice--standard' aaname='SMENSMEN' check:innerText='SMEN' /&gt;" Guid="301c9252-752c-4476-8a88-90b38ea2c882" InformativeScreenshot="4ed8156582adbfe51f9c6d9da5b5b0b0.png" Reference="jYQPizlCDkKSJlx7MmWX6A/czfQoj-mqE2jbawyJ2uTuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SAP Easy Access - User Menu for Franky Finance' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CvTextArea="1868, 160, 24, 13" CvTextArgument="Exit" CvType="Text" DesignTimeRectangle="1863, 154, 33, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[0]/btn[15]' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[0]/btn[15]' tag='DIV' type='' class='lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--active  lsButton--hoverable  lsButton--focusable  lsButton--up lsButton--design-transparent ' aaname='' check:innerText='Exit' /&gt;" Guid="5ee869de-ad8e-42cb-bb9b-8150f60e8669" SearchSteps="Selector, FuzzySelector, CV" />
@@ -153,7 +153,11 @@
           </ActivityAction>
         </uix:NApplicationCard.Body>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="TEOr_M8TeE-9o7282PSWuQ" InformativeScreenshot="b5446ce9a177b5e079bb55635ab121f4.jpg" Reference="jYQPizlCDkKSJlx7MmWX6A/XURZEz465kqqa3f-TjfU9A" Selector="&lt;html title='SAP Easy Access - User Menu for Franky Finance' app='chrome.exe' /&gt;" Title="SAP Easy Access - User Menu for Franky Finance" Url="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui?sap-client=804&amp;sap-language=EN#" />
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="3AFhn0N12UevMu5KocCbrw" InformativeScreenshot="b5446ce9a177b5e079bb55635ab121f4.jpg" Reference="jYQPizlCDkKSJlx7MmWX6A/25mnoouknEKOQOhVbgQ2Yw" Selector="&lt;html title='SAP Easy Access - User Menu for Franky Finance' app='chrome.exe' /&gt;" Title="SAP Easy Access - User Menu for Franky Finance" Url="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui?sap-client=804&amp;sap-language=EN#">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+          </uix:TargetApp>
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>

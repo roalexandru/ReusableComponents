@@ -1,0 +1,14 @@
+﻿{
+  "Name": "DIV M049btn[71]",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "pL0lbrv4-kuZpnhkdML9Vw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/pL0lbrv4-kuZpnhkdML9Vw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/kKbHmn_gWkymD05fgua7Xw",
+  "Created": "2024-10-17T12:53:54.326304Z",
+  "Updated": "2024-10-17T12:53:54.326304Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

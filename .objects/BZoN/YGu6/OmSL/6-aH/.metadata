@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Log On Emphasized",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "6-aH1kK-i0SxTyD24vQa6g",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/6-aH1kK-i0SxTyD24vQa6g",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/OmSLCsXqMEKD4g-u7RspZw",
+  "Created": "2024-10-17T12:53:56.2491669Z",
+  "Updated": "2024-10-17T12:53:56.2491669Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
