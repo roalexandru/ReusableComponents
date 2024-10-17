@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT M04612B2645…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ZpFIt_RmO0K1ReMgU0Zu4g",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/ZpFIt_RmO0K1ReMgU0Zu4g",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/_neQBmOVuk6rVKBvums58Q",
+  "Created": "2024-10-17T12:26:51.4965399Z",
+  "Updated": "2024-10-17T12:26:51.4965399Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

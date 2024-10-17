@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SPAN tbl5402[1,5]_c",
+  "Type": "Element",
+  "Id": "cdrrWauUEU-92t1uoCh8Qw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/cdrrWauUEU-92t1uoCh8Qw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/_neQBmOVuk6rVKBvums58Q",
+  "Created": "2024-10-17T12:26:52.2317939Z",
+  "Updated": "2024-10-17T12:26:52.2317939Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

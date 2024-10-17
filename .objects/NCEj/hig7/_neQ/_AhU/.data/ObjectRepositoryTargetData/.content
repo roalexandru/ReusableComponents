@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QRibVo4iDkmuxYHyzGMItw" Reference="CFKaf2ZqO0CpETBeXWiTog/CtWAb2kXJkqG2wdemxmCJA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="1147, 613, 36, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[1]/tbar[0]/btn[0]' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[1]/tbar[0]/btn[0]' tag='DIV' type='' class='lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--active  lsButton--hoverable  lsButton--focusable  lsButton--up lsButton--design-transparent ' aaname='' check:innerText='Find' /&gt;" Guid="a678080d-4972-4cd2-8cb5-8a8c37d57f68" ScopeSelectorArgument="&lt;html title='SAP Easy Access' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="62d3e7a8eab9b87d2181f9c8843c8fdb.png" xmlns="">0s41fB2Rhw0ubTFm7gZ2q4g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jtl290dC30Oy_ab9GEJC8A" Reference="CFKaf2ZqO0CpETBeXWiTog/XKRHuucX4kqFukhO-m5MYA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="150, 414, 89, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/cntlIMAGE_CONTAINER/shellcont/shell/shellcont[0]/shell' /&gt;&lt;webctrl sapweb-lsid='tree#105#13#1#1#i' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/cntlIMAGE_CONTAINER/shellcont/shell/shellcont[0]/shell' /&gt;&lt;webctrl sapweb-lsid='tree#105#13#1#1#i' tag='SPAN' type='' class='lsTextView lsTextNoWrapping lsControl--noWrapping lsTextView--usedInTable lsTextView--design-standard ' aaname='FB60 - Invoice' check:innerText='FB60 - Enter Incoming Invoices' /&gt;" Guid="952cd901-268c-4492-bb8a-8e355b194ef8" ScopeSelectorArgument="&lt;html title='SAP Easy Access' app='chrome.exe' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e581f7a78b3c440ca9bbfdad33669c21.png" xmlns="">03q5U59yVlkqwc_kUBFVHrw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

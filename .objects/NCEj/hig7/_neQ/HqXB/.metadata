@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Debit",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "HqXB5ZvzqkewqyFUFkTbpQ",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/HqXB5ZvzqkewqyFUFkTbpQ",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/_neQBmOVuk6rVKBvums58Q",
+  "Created": "2024-10-17T12:26:52.1185829Z",
+  "Updated": "2024-10-17T12:26:52.1185829Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
