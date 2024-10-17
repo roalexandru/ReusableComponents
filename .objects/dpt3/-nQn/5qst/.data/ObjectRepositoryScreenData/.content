@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="PnUDfeKAJEOs43fFJZVNGw" Reference="CFKaf2ZqO0CpETBeXWiTog/SuGcuLZdRkKlxJNxefQOrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="u4bt9LOzAkayD-BEOQWzEQ" Reference="CFKaf2ZqO0CpETBeXWiTog/SuGcuLZdRkKlxJNxefQOrQ" Selector="&lt;html title='SAP Easy Access' app='chrome.exe' /&gt;" Title="SAP Easy Access" Url="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#">
+      <imageRef attrName="InformativeScreenshot" originalValue="b88fd43a21dace738d3ad73ab15210d4.png" xmlns="">0ZoAHiSxnY02cyNXsi_Jpng</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

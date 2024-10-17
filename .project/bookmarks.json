@@ -6,7 +6,7 @@
         "Annotation": "TODO: Invoice is not older than 3 months",
         "Id": "2447c5e2-ac4b-47f2-bc54-b8aafbb30ecc",
         "ActivityIdRef": "If_3",
-        "ActivityId": "1.18",
+        "ActivityId": "1.17",
         "ActivityName": "If",
         "IsTransient": false
       }

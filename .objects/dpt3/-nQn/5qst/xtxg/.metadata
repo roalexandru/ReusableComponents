@@ -1,0 +1,14 @@
+﻿{
+  "Name": "FB60 - Invoice",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xtxgI62L0U2VsrUOjVvH_Q",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/xtxgI62L0U2VsrUOjVvH_Q",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/5qstZl56h0yi9YVkTDVd_g",
+  "Created": "2024-10-17T12:06:14.5023234Z",
+  "Updated": "2024-10-17T12:06:14.5023234Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

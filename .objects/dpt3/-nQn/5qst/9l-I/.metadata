@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT tbl25048[1,2]_c",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "9l-IT3hcdE-IR75r7mVhjQ",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/9l-IT3hcdE-IR75r7mVhjQ",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/5qstZl56h0yi9YVkTDVd_g",
+  "Created": "2024-10-17T12:06:16.5138204Z",
+  "Updated": "2024-10-17T12:06:16.5138204Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eqCO_9z03UqHn3Z7ZRIDmA" Reference="CFKaf2ZqO0CpETBeXWiTog/znQVRcYsgEGc24FybmiR5g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui?sap-client=804&amp;sap-language=EN#" CvElementArea="1847, 112, 20, 17" CvTextArea="1808, 114, 40, 13" CvTextArgument="SMEN" CvType="ArrowButton" DesignTimeRectangle="1804, 108, 64, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/titl' /&gt;&lt;webctrl sapweb-lsid='infoarea_text' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/titl' /&gt;&lt;webctrl sapweb-lsid='infoarea_text' tag='A' type='' class='lsControl--valign lsLinkChoice lsLinkChoice--display urLnkChoice lsLinkChoice--text lsControl--noWrapping lsLinkChoice--standard' aaname='SMENSMEN' check:innerText='SMEN' /&gt;" Guid="301c9252-752c-4476-8a88-90b38ea2c882" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SAP Easy Access - User Menu for Franky Finance' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CvTextArea="1868, 160, 24, 13" CvTextArgument="Exit" CvType="Text" DesignTimeRectangle="1863, 154, 33, 26" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[0]/btn[15]' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/tbar[0]/btn[15]' tag='DIV' type='' class='lsButton lsButton--base lsTbarBtnStd urInlineMetricTop urNoUserSelect urBtnRadius  urBtnStdValign  lsButton--active  lsButton--hoverable  lsButton--focusable  lsButton--up lsButton--design-transparent ' aaname='' check:innerText='Exit' /&gt;" Guid="5ee869de-ad8e-42cb-bb9b-8150f60e8669" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4ed8156582adbfe51f9c6d9da5b5b0b0.png" xmlns="">4ed8156582adbfe51f9c6d9da5b5b0b0.png</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

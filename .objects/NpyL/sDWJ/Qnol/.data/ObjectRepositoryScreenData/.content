@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="EpJf77pOUkejGVPv8d5YMQ" Reference="CFKaf2ZqO0CpETBeXWiTog/MKdPGyvMcUGt9xBAowuoIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="OherYigzAk6PRtoq87b6_A" Reference="CFKaf2ZqO0CpETBeXWiTog/MKdPGyvMcUGt9xBAowuoIw" Selector="&lt;html title='SAP Easy Access - User Menu for Franky Finance' app='chrome.exe' /&gt;" Title="SAP Easy Access - User Menu for Franky Finance" Url="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui?sap-client=804&amp;sap-language=EN#">
+      <imageRef attrName="InformativeScreenshot" originalValue="b5446ce9a177b5e079bb55635ab121f4.jpg" xmlns="">b5446ce9a177b5e079bb55635ab121f4.jpg</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>
