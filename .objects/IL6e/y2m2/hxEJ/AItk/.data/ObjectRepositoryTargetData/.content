@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="ZkGUXi7OyESEOrHYNyW1PQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="845, 268, 55, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-lsid='LOGON_BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='LOGON_BUTTON' tag='DIV' type='' class='lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius lsButton--active lsButton--focusable lsButton--up lsButton--design-emphasized lsButton--default' aaname='' check:innerText='Log On&amp;#xA;Emphasized' /&gt;" Guid="a8b05531-2d08-4ea8-a3b6-df7ab3bc6fdb" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="190a946b50d85d73e4f26043a0e80e73.png" xmlns="">0aG-2xRZwDUiMFgwNoRwULg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>
