@@ -106,6 +106,28 @@
         "DefaultValueSource": "Property"
       }
     ],
+    "UiPath.Core.Activities.EvaluateBusinessRule": [
+      {
+        "Type": "BusinessRule",
+        "PublishNullValues": false,
+        "Key": {
+          "Value": "N/A",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "folderPath": {
+            "Value": "FolderPath",
+            "ValueSource": "Property"
+          },
+          "name": {
+            "Value": "BusinessRule",
+            "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
+      }
+    ],
     "UiPath.Core.Activities.GetJobs": [
       {
         "Type": "process",
@@ -579,6 +601,34 @@
           "name": {
             "Value": "QueueName",
             "ValueSource": "Property"
+          }
+        },
+        "SubBindings": [],
+        "DefaultValueSource": "Property"
+      }
+    ],
+    "UiPath.UIAutomationNext.Activities.NApplicationCard": [
+      {
+        "Type": "UIAConnection",
+        "PublishNullValues": false,
+        "Key": {
+          "Value": "ConnectionId",
+          "ValueSource": "Property"
+        },
+        "Values": {
+          "ConnectionId": {
+            "Value": "ConnectionId",
+            "ValueSource": "Property"
+          }
+        },
+        "Arguments": {
+          "ConnectionName": {
+            "Value": "ConnectionName",
+            "ValueSource": "Property"
+          },
+          "Connector": {
+            "Value": "z-uipath-browser",
+            "ValueSource": "Constant"
           }
         },
         "SubBindings": [],
