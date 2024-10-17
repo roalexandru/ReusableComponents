@@ -1,5 +1,5 @@
 {
-  "DisplayName": "ValidateIBAN",
+  "DisplayName": "Validate IBAN",
   "Tooltip": null,
   "HelpLink": null,
   "Color": null,
@@ -11,7 +11,7 @@
       "Category": null,
       "Tooltip": "Provide the code for validation",
       "Placeholder": null,
-      "Widget": null,
+      "Widget": "TextComposer",
       "IsRequired": true,
       "IsPrincipal": true,
       "ArgumentType": 0,

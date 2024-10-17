@@ -127,7 +127,7 @@
                 </Sequence>
               </If.Else>
             </If>
-            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Text="[Username]" Timeout="1" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Text="[Username]" Timeout="1" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="4cb0763f-3cbc-42c5-8a19-02f5f530830a" DesignTimeRectangle="854, 283, 124, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user-bad' /&gt;" Guid="f330f83e-57cc-40db-bf1b-99131cde0a37" InformativeScreenshot="c4324bd91ce77a4bdcf94c7547eed37c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None" />
               </uix:NTypeInto.Target>
