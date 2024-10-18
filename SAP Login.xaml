@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SAP_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SAP_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Credential" Type="InArgument(x:String)" />
   </x:Members>
@@ -25,6 +25,7 @@
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>System.Drawing</x:String>
+      <x:String>System.Linq.Expressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -75,9 +76,13 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1099,1516" sap2010:WorkflowViewState.IdRef="Sequence_8">
+  <Sequence sap:VirtualizedContainerService.HintSize="1116,822.04" sap2010:WorkflowViewState.IdRef="Sequence_8">
     <Sequence.Variables>
       <Variable x:TypeArguments="ss:SecureString" Name="Password" />
       <Variable x:TypeArguments="x:String" Name="Username" />
@@ -87,81 +92,6 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="79169478d0cd49d097f943c2c8598b17_1679476546871_U0FQIFdlYg" ConnectionName="SAP Web" DisplayName="Use Browser: Logon 1" sap:VirtualizedContainerService.HintSize="586,1493" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V2">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="552,1192" sap2010:WorkflowViewState.IdRef="Sequence_7">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[Credential.Length &gt; 0]" sap:VirtualizedContainerService.HintSize="518,622" sap2010:WorkflowViewState.IdRef="If_1">
-              <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,226" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:GetRobotCredential AssetName="[Credential]" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[Password]" Username="[Username]">
-                    <ui:GetRobotCredential.TimeoutMS>
-                      <InArgument x:TypeArguments="x:Int32" />
-                    </ui:GetRobotCredential.TimeoutMS>
-                  </ui:GetRobotCredential>
-                </Sequence>
-              </If.Then>
-              <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,226" sap2010:WorkflowViewState.IdRef="Sequence_10">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:GetRobotCredential AssetName="SAP" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]">
-                    <ui:GetRobotCredential.TimeoutMS>
-                      <InArgument x:TypeArguments="x:Int32" />
-                    </ui:GetRobotCredential.TimeoutMS>
-                  </ui:GetRobotCredential>
-                </Sequence>
-              </If.Else>
-            </If>
-            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Text="[Username]" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="846, 188, 124, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-user' tag='INPUT' type='text' class='lsField__input' aaname='User' /&gt;" Guid="a8d24e6a-dd69-45b5-b169-0e0d8db59670" InformativeScreenshot="274d99c059f5043b18d5102f15d4442b.png" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None" />
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-password'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" SecureText="[Password]" Version="V3">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="846, 215, 124, 20" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-password' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-password' tag='INPUT' type='password' class='lsField__input' aaname='Password' /&gt;" Guid="f9fdf6ec-bc55-4bd7-b8a8-4cd0fa2bb9d4" InformativeScreenshot="c88e26a43181c452960c0b80cbcd7e98.png" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None" />
-              </uix:NTypeInto.Target>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log On Emphasized'" sap:VirtualizedContainerService.HintSize="518,130" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="845, 268, 55, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-lsid='LOGON_BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='LOGON_BUTTON' tag='DIV' type='' class='lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius lsButton--active lsButton--focusable lsButton--up lsButton--design-emphasized lsButton--default' aaname='' check:innerText='Log On&amp;#xA;Emphasized' /&gt;" Guid="a8b05531-2d08-4ea8-a3b6-df7ab3bc6fdb" InformativeScreenshot="190a946b50d85d73e4f26043a0e80e73.png" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None" />
-              </uix:NClick.Target>
-            </uix:NClick>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.InUiElement>
-        <InArgument x:TypeArguments="ui:UiElement" />
-      </uix:NApplicationCard.InUiElement>
-      <uix:NApplicationCard.OutUiElement>
-        <OutArgument x:TypeArguments="ui:UiElement" />
-      </uix:NApplicationCard.OutUiElement>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" InformativeScreenshot="c808f04dd1bb1987113aaed7b5447ec9.png" Selector="&lt;html title='Logon' app='chrome.exe' /&gt;" Title="Logon" Url="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" />
-      </uix:NApplicationCard.TargetApp>
-      <uix:NApplicationCard.Timeout>
-        <InArgument x:TypeArguments="x:Double" />
-      </uix:NApplicationCard.Timeout>
-      <uix:NApplicationCard.UserDataFolderPath>
-        <InArgument x:TypeArguments="x:String" />
-      </uix:NApplicationCard.UserDataFolderPath>
-    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Hello World&quot;]" />
   </Sequence>
 </Activity>
