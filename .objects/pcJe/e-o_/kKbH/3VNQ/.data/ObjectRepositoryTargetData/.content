@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="zPuPMb-mDUiEPZf_9WNOfw" Reference="jYQPizlCDkKSJlx7MmWX6A/zHZBgWqbaUWwkDDAr5basQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="731, 418, 508, 24" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[1]/usr/txt130_FIND' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[1]/usr/txt130_FIND' tag='INPUT' type='text' class='lsField__input' aaname='' /&gt;" Guid="5580755b-0842-4841-ac95-9f3e34c6a5b0" ScopeSelectorArgument="&lt;html title='SAP Easy Access' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="1476d6a7f20bfad44e1b405168a1657f.png" xmlns="">0_BeTKNXHfUiCQYWkYT8VYg</imageRef>
-    </TargetAnchorable>
-    <x:String x:Key="ActivityType">TypeInto</x:String>
-  </ObjectRepositoryTargetData.Data>
-</ObjectRepositoryTargetData>

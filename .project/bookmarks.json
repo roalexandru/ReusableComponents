@@ -1,13 +1,33 @@
 {
   "Value": {
-    "CreateFB60ReportfromInvoice.xaml": [
+    "Post Invoice.xaml": [
       {
         "IsEnabled": true,
         "Annotation": "TODO: Invoice is not older than 3 months",
         "Id": "2447c5e2-ac4b-47f2-bc54-b8aafbb30ecc",
         "ActivityIdRef": "If_3",
-        "ActivityId": "1.18",
+        "ActivityId": "1.17",
         "ActivityName": "If",
+        "IsTransient": false
+      }
+    ],
+    "Tests/LoginValidation.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "6826a3e8-c8ae-44bf-8dcc-729e966c137d",
+        "ActivityIdRef": "NCheckState_1",
+        "ActivityId": "1.5",
+        "ActivityName": "Check App State 'SMENSMEN'",
+        "IsTransient": false
+      },
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "793d8421-7578-4292-a41d-c57742c81dd6",
+        "ActivityIdRef": "NApplicationCard_1",
+        "ActivityId": "1.3",
+        "ActivityName": "SAP Easy Access - User Menu for Franky Finance",
         "IsTransient": false
       }
     ]

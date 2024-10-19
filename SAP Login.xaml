@@ -74,7 +74,7 @@
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1230,1516" sap2010:WorkflowViewState.IdRef="Sequence_8">
+  <Sequence sap:VirtualizedContainerService.HintSize="1397.6000000000001,1520" sap2010:WorkflowViewState.IdRef="Sequence_8">
     <Sequence.Variables>
       <Variable x:TypeArguments="ss:SecureString" Name="Password" />
       <Variable x:TypeArguments="x:String" Name="Username" />
@@ -84,28 +84,28 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Logon screen" sap:VirtualizedContainerService.HintSize="586,1493" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V2">
+    <uix:NApplicationCard AttachMode="SingleWindow" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Logon screen" sap:VirtualizedContainerService.HintSize="584,1496.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="552,1192" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="550.4,1193.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[Credential.Length &gt; 0]" sap:VirtualizedContainerService.HintSize="518,622" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[Credential.Length &gt; 0]" sap:VirtualizedContainerService.HintSize="516.8,623.2" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,226" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="483.2,226.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:GetRobotCredential AssetName="[Credential]" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[Password]" Username="[Username]">
+                  <ui:GetRobotCredential AssetName="[Credential]" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="449.6,166.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_2" Password="[Password]" Username="[Username]">
                     <ui:GetRobotCredential.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:GetRobotCredential.TimeoutMS>
@@ -113,13 +113,13 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,226" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="483.2,226.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:GetRobotCredential AssetName="SAP" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]">
+                  <ui:GetRobotCredential AssetName="SAP" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="449.6,166.4" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]">
                     <ui:GetRobotCredential.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:GetRobotCredential.TimeoutMS>
@@ -127,12 +127,12 @@
                 </Sequence>
               </If.Else>
             </If>
-            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Text="[Username]" Timeout="1" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-user'" sap:VirtualizedContainerService.HintSize="516.8,190.4" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Text="[Username]" Timeout="1" Version="V3">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="5f826060-b8b4-48d2-a5dd-09a128b19de6" ContentHash="iSPCXjjbwky9h_FqeNOSxw" DesignTimeRectangle="854, 283, 124, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user-bad' /&gt;" Guid="01ded8a0-b82e-4ed8-8d5d-61129db37e06" InformativeScreenshot="65dbc3d8ddf7c88940dc13590371ab80.png" Reference="jYQPizlCDkKSJlx7MmWX6A/dHhevpLUkkmBlVcNgqBjvg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None" />
+                <uix:TargetAnchorable BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="c32dd579-6678-4662-88ae-f87b59399e79" DesignTimeRectangle="1146, 351, 156, 26" ElementType="InputBox" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-user-bad' /&gt;" Guid="f4e1ce47-e5b5-4acb-99ba-7af33915a736" InformativeScreenshot="b5e07ae64c1a15228d0e7511b03d613a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="None" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-password'" sap:VirtualizedContainerService.HintSize="518,190" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" SecureText="[Password]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" DisplayName="Type Into 'INPUT sap-password'" sap:VirtualizedContainerService.HintSize="516.8,190.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" SecureText="[Password]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="b4cf91ef-445c-44db-b6ff-66844c3fc7c0" ContentHash="MSrO4pv4kkyqQIFFkb4n3Q" CvElementArea="852, 308, 128, 24" CvType="InputBox" DesignTimeRectangle="854, 310, 124, 20" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-password' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-password' tag='INPUT' type='password' class='lsField__input' aaname='Password' /&gt;" Guid="34aa82d3-189c-4149-98db-7423f6ae578f" InformativeScreenshot="481f166ed72168b748a1d4662b21ebb4.png" Reference="jYQPizlCDkKSJlx7MmWX6A/DacNBc9mRkOZunUFQQ9vxw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -143,7 +143,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log On Emphasized'" sap:VirtualizedContainerService.HintSize="518,130" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log On Emphasized'" sap:VirtualizedContainerService.HintSize="516.8,129.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c8f058c6-975d-430e-9ebb-8d01e4bf8e13" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" ContentHash="BVguo5jMA0u-KM_Lo9Gdfg" DesignTimeRectangle="845, 268, 55, 22" ElementType="Button" FullSelectorArgument="&lt;webctrl sapweb-lsid='LOGON_BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='LOGON_BUTTON' tag='DIV' type='' class='lsButton lsButton--base urInlineMetricTop urNoUserSelect urBtnRadius lsButton--active lsButton--focusable lsButton--up lsButton--design-emphasized lsButton--default' aaname='' check:innerText='Log On&amp;#xA;Emphasized' /&gt;" Guid="a8b05531-2d08-4ea8-a3b6-df7ab3bc6fdb" InformativeScreenshot="190a946b50d85d73e4f26043a0e80e73.png" Reference="jYQPizlCDkKSJlx7MmWX6A/6-aH1kK-i0SxTyD24vQa6g" ScopeSelectorArgument="&lt;html title='Logon' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None" />
               </uix:NClick.Target>
