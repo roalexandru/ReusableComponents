@@ -72,19 +72,19 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Sequence>
-    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="540,506" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="540,547" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP Login - Invoke Workflow File (SAP Login.xaml)" sap:VirtualizedContainerService.HintSize="506,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="SAP Login.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SAP Login - Invoke Workflow File (SAP Login.xaml)" sap:VirtualizedContainerService.HintSize="506,218" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="SAP Login.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <scg:Dictionary x:TypeArguments="x:String, Argument" />
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
       <NoPersistScope DisplayName="No Persist Scope" sap:VirtualizedContainerService.HintSize="506,237" sap2010:WorkflowViewState.IdRef="NoPersistScope_1">
-        <Delay Duration="[TimeSpan.FromMinutes(New Random().Next(1, 3))]" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Delay_1" />
+        <Delay Duration="[TimeSpan.FromMinutes(New Random().Next(2, 4))]" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Delay_1" />
       </NoPersistScope>
     </Sequence>
     <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="540,112" sap2010:WorkflowViewState.IdRef="Sequence_4">
