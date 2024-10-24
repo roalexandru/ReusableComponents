@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT M14608",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "JsBD5JGn6UmOA0o05EZTMw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/JsBD5JGn6UmOA0o05EZTMw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/Zjys4uIKZE-AhCsf5oImug",
+  "Created": "2024-10-24T22:12:41.9738198Z",
+  "Updated": "2024-10-24T22:12:41.9738198Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

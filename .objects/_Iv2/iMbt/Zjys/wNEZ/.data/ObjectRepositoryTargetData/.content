@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zGsV8n8LHUGViANTR42hMw" Reference="jYQPizlCDkKSJlx7MmWX6A/xD9ZoStTz0eze-fX5h2UCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://20.16.188.67:44351/sap/bc/gui/sap/its/webgui#" DesignTimeRectangle="368, 660, 261, 20" FullSelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE/txtACGL_ITEM-WRBTR[4,0]' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-id='wnd[0]/usr/subITEMS:SAPLFSKB:0100/tblSAPLFSKBTABLE/txtACGL_ITEM-WRBTR[4,0]' tag='SPAN' type='' class='lsField__input' aaname='' /&gt;" Guid="7162be77-12d1-460b-9c7c-a16e44bc3b44" ScopeSelectorArgument="&lt;html title='Enter Vendor Invoice: Company Code 1710' app='chrome.exe' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="5e8af28b761fb9cf3a0f7e764a26aa0b.png" xmlns="">0-EYjeBil6kivxsAGwD0qlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

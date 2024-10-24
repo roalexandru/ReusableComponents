@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT sap-password",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "KSYY3hJVsEGamok5_-BGJQ",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/KSYY3hJVsEGamok5_-BGJQ",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/dW0oLyB510uC_DBGBP8Zjw",
+  "Created": "2024-10-24T22:12:41.6305189Z",
+  "Updated": "2024-10-24T22:12:41.6305189Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

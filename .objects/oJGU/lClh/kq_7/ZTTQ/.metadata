@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SMENSMEN",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZTTQu9b_nEm4TlyY4dL9Lw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/ZTTQu9b_nEm4TlyY4dL9Lw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/kq_7Mvfe6UOZ3JQXqRS_jw",
+  "Created": "2024-10-24T22:12:41.2244063Z",
+  "Updated": "2024-10-24T22:12:41.2244063Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

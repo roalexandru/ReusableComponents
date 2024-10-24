@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Logon screen",
+  "Type": "App",
+  "Id": "jCxNx8fN-06hL56eaII3PA",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/jCxNx8fN-06hL56eaII3PA",
+  "Created": "2024-10-24T22:12:41.4454171Z",
+  "Updated": "2024-10-24T22:12:41.4454171Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

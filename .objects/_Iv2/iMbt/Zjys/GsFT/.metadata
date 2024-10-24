@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INV123",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "GsFTyj5tDkyXCE7CDhbVjw",
+  "Reference": "jYQPizlCDkKSJlx7MmWX6A/GsFTyj5tDkyXCE7CDhbVjw",
+  "ParentRef": "jYQPizlCDkKSJlx7MmWX6A/Zjys4uIKZE-AhCsf5oImug",
+  "Created": "2024-10-24T22:12:42.5452524Z",
+  "Updated": "2024-10-24T22:12:42.5452524Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationNext.Activities, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

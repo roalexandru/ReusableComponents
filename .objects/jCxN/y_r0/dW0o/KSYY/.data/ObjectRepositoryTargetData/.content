@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jNDJn5ZGEk6s4nXMn5pAAg" Reference="jYQPizlCDkKSJlx7MmWX6A/DacNBc9mRkOZunUFQQ9vxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="20.16.188.67/sap/bc/gui/sap/its/webgui" CVScreenId="b4cf91ef-445c-44db-b6ff-66844c3fc7c0" CvElementArea="852, 308, 128, 24" CvType="InputBox" DesignTimeRectangle="854, 310, 124, 20" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl sapweb-lsid='sap-password' /&gt;" FuzzySelectorArgument="&lt;webctrl sapweb-lsid='sap-password' tag='INPUT' type='password' class='lsField__input' aaname='Password' /&gt;" Guid="34aa82d3-189c-4149-98db-7423f6ae578f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Logon' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="b4cf91ef-445c-44db-b6ff-66844c3fc7c0" CvTextArea="717, 313, 63, 12" CvTextArgument="Password:*" CvType="Text" DesignTimeRectangle="718, 312, 67, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl sapweb-lsid='l4' /&gt;" Guid="aa3a379c-dbd4-4eeb-a864-3d0d27805052" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="481f166ed72168b748a1d4662b21ebb4.png" xmlns="">0EJVtyzmGqEmCNBQnP7kv7A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
